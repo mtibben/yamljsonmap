@@ -5,7 +5,7 @@ A type to facilitate interoperability between yaml and json Marshaling and Unmar
 When using [go-yaml](https://github.com/go-yaml/yaml), unmarshalling yaml will results in
 `map[interface{}]interface{}` types. However, `json.Marshal` cannot marshal `map[interface{}]interface{}`.
 
-This makes interoperability between the yaml and json libraries problematic.
+This makes interoperability between the [`gopkg.in/yaml.v2`](gopkg.in/yaml.v2) and [`encoding/json`](https://golang.org/pkg/encoding/json/) libraries problematic.
 
 ## Solutions
 
